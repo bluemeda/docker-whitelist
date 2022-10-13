@@ -104,7 +104,7 @@ jobs:
           platforms: |
             linux/386
             linux/amd64
-            linux/arm64v8
+            linux/arm64/v8
           load: false
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
@@ -147,7 +147,7 @@ jobs:
           platforms: |
             linux/386
             linux/amd64
-            linux/arm68v8
+            linux/arm68/v8
           load: false
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
